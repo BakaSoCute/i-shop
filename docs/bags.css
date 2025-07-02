@@ -1,0 +1,72 @@
+.about{
+    border-right: 4px solid #1A1F1680;
+    padding-right: 44px;
+
+    
+}
+.title{
+    margin-top: 26px;
+    margin-bottom: 34px;
+    font-size: 48px;
+    font-weight: 400;
+    color: #1A1F16;
+}
+.item_back{
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1A1F16;
+    
+}
+.bags_item{
+    display: flex;
+    background-color: white;
+    border-radius: 21px;
+    padding: 10px;
+}
+.bags_prise_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 35px;
+}
+.bags_prise_count{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.bnt_count{
+    background-color:white ;
+    border: none;
+    cursor: pointer;
+}
+.bags_title{
+    padding-top: 24px;
+    padding-bottom: 8px;
+    font-weight: 400;
+    font-size: 31px;
+}
+.bags_series{
+   padding-bottom: 8px;
+   font-weight: 400;
+   font-size: 20px;
+   color: #60695C;
+}
+.bags_description{
+    padding-bottom: 16px;
+    font-size: 20px;
+    letter-spacing: -2%;
+    color: #1A1F16;
+}
+.bags_buy{
+    background-color: #1A1F16;
+    border-radius: 14px;
+    color: white;
+    padding: 8px 24px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
