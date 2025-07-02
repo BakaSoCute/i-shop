@@ -1,0 +1,79 @@
+.item{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 24px;
+}
+.item_back{
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1A1F16;
+    
+}
+.about{
+    gap: 16px;
+    border-right: 4px solid #1A1F1680;
+    padding-right: 44px;
+    
+}
+.item_img{
+    width: 274px;
+    height: 334px;
+    border-radius: 13px;
+    background-color: white;
+}
+.item_mini_description{
+    width: 591px;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1A1F16;
+
+
+}
+.item_title{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 61px;
+}
+.item_series{
+    font-weight: 400;
+    font-size: 31px;
+    color: #1A1F1680;
+
+}
+.item_prise{
+    font-weight: 400;
+    font-size: 31px;
+}
+.item_btn{
+    width: 178px;
+    height: 43px;
+    background-color:#1A1F16;
+    color: white;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.description{
+    width: 905px;
+    padding: 5px;
+    border-top: 3px solid #1A1F1680;
+
+    font-size: 20px;
+    color: #60695C;
+}
+.description_title{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 31px;
+    color: #1A1F16;
+}

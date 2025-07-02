@@ -1,0 +1,87 @@
+@import url(index.html);
+.main{
+    background-color: rgb(233, 233, 233);
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2000px;
+    padding-top: 50px;
+    gap: 30px;
+}
+.listItem{
+    display: flex;
+    gap: 16px;
+    border-right: 4px solid #1A1F1680;
+    
+}
+.listItem_a{
+    display: flex;
+    align-items: center;
+}
+.listItem_item{
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listItem_item__img{
+    background-color: white;
+    border-radius: 22px;
+    margin-bottom: 16px;
+}
+.listItem_item__h2{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.listItem_item__h3{
+    margin-bottom: 8px;
+    font-size: 16px;
+    letter-spacing: -2%;
+    color: #60695C;
+
+}
+.listItem_item__prase{
+    font-size: 20px;
+}
+.listItem_prase{
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 22px;
+}
+.listItem_item__bnt{
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+.listBag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listBag_title{
+    font-size: 39px;
+    color: #1A1F16;
+    font-weight: 400;
+
+}
+.listBag_items{
+    height: 50px;
+}
+.listBag_a{
+    width: 163px;
+    height: 43px;
+}
