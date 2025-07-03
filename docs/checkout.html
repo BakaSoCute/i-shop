@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="bags.css">
 </head>
 <body>
-    
+    <main class="main">
+        <div class="">
+            <a class="item_back" href="bags.html"> Назад в корзину</a>
+            <div class="container">
+                <div class="address">
+                    <div class="address_cont">
+                        <h2 class="address_title">АДРЕС ДОСТАВКИ</h2>
+                        <p class="address_p">Витя Иванов</p>
+                        <p class="address_p">Лениградский проспект, 27</p>
+                        <p class="address_p">Москва</p>
+                        <p class="address_p">+7 000 000 00 00</p>
+                    </div>
+                    <button class="address_btn">Изменить</button>
+                </div>
+                <div class="bag_container">
+                    <h3 class="delivery_title">Сумма</h3>
+                    <div class="delivery">
+                        <p class="delivery_p">Товары</p>
+                        <p class="delivery_p">$529.99</p>
+                    </div>
+                    <div class="delivery">
+                        <p class="delivery_p">Доставка</p>
+                        <p class="delivery_p">$6.99</p>
+                    </div>
+                    <p class="sum">Стоимость: $536.98</p>
+                    <button class="delivery_btn">Разместить заказ</button>
+                </div>
+
+
+            </div>
+            <div class="pay">
+                <h2 class="pay_title">СПОСОБ ОПЛАТЫ</h2>
+                <div class="pay_cont">
+                    <p class="pay_p">Оплата картой при получении</p>
+                    <button class="address_btn">Изменить</button>
+                </div>
+            </div>
+            <div class="pay">
+                <h1 class="pay_title">ПРОВЕРЬ КОРЗИНУ</h1>
+                <div class="bags_item">
+                    <img src="img/Image.png" alt="">
+                    <div>
+                        <h2 class="bags_title">Apple Watch</h2>
+                        <h3 class="bags_series">Series 5 SE</h3>
+                        <p class="bags_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="img/Special.png" alt="">
+                        <div class="bags_prise_cont">
+                            <p>$529.99</p>
+                            <p>x 1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+    <script type="module" src="index.js"></script>
 </body>
 </html>
