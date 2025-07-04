@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="checkout.css">
     <link rel="stylesheet" href="bags.css">
+    <link rel="stylesheet" href="popup.css">
 </head>
 <body>
     <main class="main">
@@ -25,7 +26,20 @@
                         <p class="address_p">Москва</p>
                         <p class="address_p">+7 000 000 00 00</p>
                     </div>
-                    <button class="address_btn">Изменить</button>
+                    <button id="js-btn" class="address_btn">Изменить</button>
+                    <div class="popup js-popup">
+                        <div class="popup__content js-popup__content">
+                            <form class="popup_container">
+                                <input class="popup__input" type="text" name="name" placeholder="Имя">
+                                <input class="popup__input" type="text" name="address" placeholder="Улица - номер дома">
+                                <input class="popup__input" type="text" name="sity" placeholder="Город">
+                                <input class="popup__input" type="phone" name="phone" placeholder="Номер телефона">
+                                <button class="popup__button">Сохранить</button>
+                            </form>
+                        
+                        <div class="popup_close-btn js-popup__close-btn"></div>
+                    </div>
+                </div>
                 </div>
                 <div class="bag_container">
                     <h3 class="delivery_title">Сумма</h3>
@@ -47,9 +61,30 @@
                 <h2 class="pay_title">СПОСОБ ОПЛАТЫ</h2>
                 <div class="pay_cont">
                     <p class="pay_p">Оплата картой при получении</p>
-                    <button class="address_btn">Изменить</button>
+                    <button id="pay_btn" class="address_btn">Изменить</button>
                 </div>
-            </div>
+                <div class="popup js-popupPAY">
+                    <div class="popup__content js-popup__contentPAY">
+                        <form class="popup_container">
+                            <div class="popup_containerPAY">
+                                <div class="popupPay">
+                                    <input class="popup__inputPay" name="InputPayOffline" type="checkbox">
+                                    <label class="popup_label" for="InputPayOffline">Оплата картой при получении</label>
+                                </div>
+                                <div class="popupPay">
+                                    <input class="popup__inputPay" name="InputPayOnline" type="checkbox">
+                                    <label class="popup_label" for="InputPayOnline">Оплата картой на сайте</label>
+                                </div>
+
+
+                            </div>
+
+                            <button class="popup__button">Сохранить</button>
+                        </form>
+                        
+                        <div class="popup_close-btn js-popup__close-btnPAY"></div>
+                    </div>
+                </div>
             <div class="pay">
                 <h1 class="pay_title">ПРОВЕРЬ КОРЗИНУ</h1>
                 <div class="bags_item">
@@ -72,5 +107,7 @@
 
     </main>
     <script type="module" src="index.js"></script>
+    <script src="popup.js"></script>
+    <script src="popup_pay.js"></script>
 </body>
 </html>
